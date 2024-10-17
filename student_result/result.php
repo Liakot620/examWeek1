@@ -2,8 +2,8 @@
 // Initialize grades for 5 subjects
 $subject1 = 53;
 $subject2 = 63;
-$subject3 = 74;
-$subject4 = 34;  
+$subject3 = 64;
+$subject4 = 55;  
 $subject5 = 56;
 
 // Total and average variables
@@ -41,7 +41,6 @@ function myResult($subject1,$subject2,$subject3,$subject4,$subject5){
                     return "Total Marks: {$total_marks}<br>"."Average Marks: {$average_marks}<br>"."Grade: C";
                     break;
                 case ($average_marks>=33 && $average_marks<40):
-                    
                   return "Total Marks: {$total_marks}<br>"."Average Marks: {$average_marks}<br>"."Grade: D";
                     break;
                 
